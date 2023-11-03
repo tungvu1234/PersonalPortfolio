@@ -13,46 +13,37 @@ body {
 }
 
 /* Style all font awesome icons */
-.fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 30px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 50%;
-  }
-  
-  .fa:hover {
-    opacity: 0.7;
-  }
-  
-  
 
-  .fa-facebook {
-    background: #3B5998;
-    color: white;
-  }
-  
-
-  .fa-github {
-    background: black;
-    color: white;
-  }
-
-.fa-yahoo {
-    background: #430297;
-    color: white;
+#head-container {
+    display: flex;
+    justify-content: space-between;
 }
 
-.fa-rss {
-    background: #ff6600;
-    color: white;
-  }
+#resume {
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    border: whitesmoke double;
+    padding: 7px;
+    margin: 1em 1em 0.5em 0.5em;
+    font-weight: bold;
+}
+
+#resume:hover {
+    color: indianred;
+    border: solid indianred;
+    transition: ease-in-out .3s;
+}
+
+#head-logos {
+    display: flex;
+    justify-content: space-around;
+    width: 3em;
+    margin: 1em 0em 0em 1em;
+}
 
 #navbar {
     display: flex;
     justify-content: space-between;
-
     top: 0;
     left: 0;
     z-index: 10;
@@ -69,7 +60,7 @@ body {
 }
 
 #navbar h1 {
-    margin: 10px 0px 0px 20px;
+    margin: 0px 0px 0px 20px;
     justify-content: center;
     color: white;
 }
@@ -86,7 +77,7 @@ li {
     font-size: 1.4rem;
     font-weight: bold;
     line-height: 1.2;
-    padding: 1rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
 }
 
 a {
@@ -105,7 +96,7 @@ a {
     justify-content: center;
     color: white;
     width: 100%;
-    height: 90vh;
+    height: 75vh;
     padding: 0;
     margin: 0;
     border:0ch;
