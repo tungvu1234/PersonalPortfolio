@@ -24,3 +24,9 @@ function openTab(evt, tabName) {
     document.querySelector(".tablinks").click();
   });
   
+  var typed = new Typed(".auto-input", {
+    strings: ["A Self-taught Web Developer", "HTML5/CSS/Javasript", "C#", "React", "SQL"],
+    typeSpeed: 100,
+    backSpeed: 100,
+    loop: true
+})
