@@ -194,7 +194,8 @@ h1::first-letter, h2::first-letter {
 
 .column {
     float: left;
-    width: 50%;
+    width: 48%;
+    padding-right: 2%;
   }
   
   /* Clear floats after the columns */
